@@ -1,0 +1,18 @@
+name: png_chunk_text
+description: Create or parse a PNG tEXt chunk for storing uncompressed text data in PNG images.
+version: 1.0.0
+homepage: https://github.com/FlutterFans/png_chunk_text
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  png_chunks_extract: 1.0.1
+  png_chunks_encode: 1.0.0
